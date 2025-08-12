@@ -1,33 +1,61 @@
-HELP.md
-target/
-.mvn/wrapper/maven-wrapper.jar
-!**/src/main/**/target/
-!**/src/test/**/target/
+# Maven target folder
+/target/
 
-### STS ###
-.apt_generated
-.classpath
-.factorypath
-.project
-.settings
-.springBeans
-.sts4-cache
+# Logs
+*.log
+*.log.*
 
-### IntelliJ IDEA ###
-.idea
-*.iws
+# IntelliJ IDEA
+.idea/
 *.iml
 *.ipr
+*.iws
+out/
 
-### NetBeans ###
-/nbproject/private/
-/nbbuild/
-/dist/
-/nbdist/
-/.nb-gradle/
-build/
-!**/src/main/**/build/
-!**/src/test/**/build/
+# Eclipse/STS
+.project
+.classpath
+.settings/
+.apt_generated/
+.factorypath
+.springBeans
 
-### VS Code ###
+# VSCode
 .vscode/
+
+# MacOS
+.DS_Store
+
+# Windows
+Thumbs.db
+ehthumbs.db
+desktop.ini
+
+# Environment files
+*.env
+*.env.*
+
+# Temporary files
+*.tmp
+*.bak
+*.swp
+*~
+
+# H2 Database local files (si usas modo archivo)
+*.mv.db
+*.trace.db
+
+# Java build
+*.class
+
+# Coverage / Reports
+/target/site/
+/target/surefire-reports/
+/target/failsafe-reports/
+/target/generated-sources/
+/target/generated-test-sources/
+/target/maven-status/
+/target/maven-archiver/
+
+# Dependency directories
+node_modules/
